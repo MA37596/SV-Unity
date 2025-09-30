@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact - SV Unity Amsterdam</title>
+    <meta name="description" content="Neem contact op met SV Unity, dé studentenvereniging in Amsterdam." />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <h1 class="headerTitle">SV Unity</h1>
+            <nav role="navigation" aria-label="Hoofd navigatie">
+                <ul class="navList">
+                    <li><a href="index.html" class="navLink">Home</a></li>
+                    <li><a href="eventpage.html" class="navLink primaryButton">Events</a></li>
+                    <li><a href="contact.html" class="navLink navLinkActive">Contact</a></li>
+                    <li><a href="#" class="navLink">Lid Worden</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="contactSection">
+            <h2 class="sectionTitle">Neem contact op met SV Unity</h2>
+            <p class="contactIntro">Heb je vragen over onze vereniging, activiteiten of lidmaatschap? Vul onderstaand formulier in en we nemen snel contact met je op!</p>
+
+            <form class="contactForm" >
+                <label for="name">Naam</label>
+                <input type="text" id="name" name="name" required placeholder="Jouw naam" />
+
+                <label for="email">E-mailadres</label>
+                <input type="email" id="email" name="email" required placeholder="Jouw e-mail" />
+
+                <label for="subject">Onderwerp</label>
+                <input type="text" id="subject" name="subject" placeholder="Onderwerp van je bericht" />
+
+                <label for="message">Bericht</label>
+                <textarea id="message" name="message" rows="6" required placeholder="Typ hier je bericht..."></textarea>
+
+                <button type="submit" class="SecondaryButton largeButton">Verstuur</button>
+            </form>
+        </section>
+
+        <section class="contactInfo">
+            <h3>Contactgegevens</h3>
+            <p><strong>Adres:</strong> MediaCollege Amsterdam, Contactweg, 1012 AB Amsterdam</p>
+            <p><strong>Telefoon:</strong> 020-1234567</p>
+            <p><strong>E-mail:</strong> info@svunity.nl</p>
+
+            <h3>Locatie</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1217.4418153159113!2d4.855831758823036!3d52.39065984496454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e28849730d2f%3A0x5dffd675d740eddb!2smbo%20%7C%20Mediacollege%20Amsterdam!5e0!3m2!1snl!2snl!4v1730826508962!5m2!1snl!2snl" 
+                width="100%" 
+                height="300" 
+                style="border:0; border-radius:15px;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade" 
+                title="Locatie MediaCollege Amsterdam"
+            ></iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>© 2025 SV Unity Amsterdam | Gemaakt door Rayan Aghmer</p>
+            <nav aria-label="Footer navigatie">
+                <ul class="footerNav">
+                    <li><a href="#">Samenwerkingen</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
